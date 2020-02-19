@@ -35,6 +35,7 @@ INSTALLED_APPS = [
 
     'users.apps.UsersConfig', # new
     'pages.apps.PagesConfig', # new new
+    'articles.apps.ArticlesConfig', # new new new
     # 3rd Party
     'crispy_forms', # new
 
@@ -139,3 +140,7 @@ EMAIL_HOST_USER = 'apikey'
 EMAIL_HOST_PASSWORD = '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'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
+
+
+TIME_ZONE = 'Africa/Cairo' # NEW 
